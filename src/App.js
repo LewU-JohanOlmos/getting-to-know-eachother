@@ -1,24 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import {BrowserRouter, Route, Routes} from "react-router-dom";
+import Hero from './components/Hero';
+import Bio from './components/Bio';
+import Class from './components/Class';
+
+import {NextUIProvider} from "@nextui-org/react";
+import Footer from './components/Footer';
+import Duties from './components/Duties';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <NextUIProvider>
+      <BrowserRouter>
+        <Hero/>
+        <Bio/>
+        <Duties/>
+        <Class/>
+        <Footer/>
+      </BrowserRouter>
+    </NextUIProvider>
+      
   );
 }
 
