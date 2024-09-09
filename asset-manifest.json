@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/getting-to-know-eachother/static/css/main.a6f39f04.css",
+    "main.js": "/getting-to-know-eachother/static/js/main.e2a60dab.js",
+    "static/js/453.0fbe92db.chunk.js": "/getting-to-know-eachother/static/js/453.0fbe92db.chunk.js",
+    "index.html": "/getting-to-know-eachother/index.html",
+    "main.a6f39f04.css.map": "/getting-to-know-eachother/static/css/main.a6f39f04.css.map",
+    "main.e2a60dab.js.map": "/getting-to-know-eachother/static/js/main.e2a60dab.js.map",
+    "453.0fbe92db.chunk.js.map": "/getting-to-know-eachother/static/js/453.0fbe92db.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a6f39f04.css",
+    "static/js/main.e2a60dab.js"
+  ]
+}
