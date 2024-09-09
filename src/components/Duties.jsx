@@ -25,6 +25,14 @@ function Duties() {
                         <p className='text-sm font-normal'>Overseeing the day-to-day operations of the company, including managing resources, budgets, and timelines. You ensure that all departments work efficiently and effectively towards common goals.</p>
                     </AccordionItem>
                 </Accordion>
+                <div className="mt-20">
+                    <p className="text-2xl font-semibold mb-8">What I Hope to Learn in this Course</p>
+                    <ul className="list-disc text-sm ml-4">
+                        <li>Gain deep understanding of Scrum management and different ways to collaborate with the development team.</li>
+                        <li>Learn more about Azure and server side web development.</li>
+                        <li>Find the relation between cybersecurity and software engineering.</li>
+                    </ul>
+                </div>
             </div>
         </section>
     )
