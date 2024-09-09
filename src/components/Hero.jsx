@@ -15,7 +15,8 @@ function Hero() {
                             <p className='text-sm'><span className='font-semibold'>Year: </span>1st Year (transfer student)</p>
                         </div>
                         <p className='font-semibold mt-4'>Contact</p>
-                        <p className='text-sm'><span className='font-semibold'>Email: </span><Link to={"mailto:johanolmoszavala@lewisu.edu"}></Link>johanolmoszavala@lewisu.edu</p>
+                        <p className='text-sm'><span className='font-semibold'>Email: </span><Link to="mailto:johanolmoszavala@lewisu.edu">johanolmoszavala@lewisu.edu</Link></p>
+                        <p className='text-sm'><span className='font-semibold'>Discord: </span><Link to="https://discord.com/users/duckiest01_75680">Duckiest01</Link></p>
                     </div>
                     <div className='h-full w-full'>
                         <img src='me.png'/>
